@@ -1,6 +1,6 @@
 package section02;
 
-public class PrintfPt {
+public class Printfpt {
 	public static void main(String[] args) {
 		System.out.printf("%.1f", 1.1234567);
 		System.out.println();
