@@ -1,0 +1,57 @@
+package chapter01;
+
+public class C_Variable {
+	// main 메서드
+	// : main + 자동 완성(ctrl + space) 
+	public static void main(String[] args) {
+	   // === 변수(Variable) ===
+	   // : 데이터를 저장하는 공간
+	   // >> 데이터를 메모리에서 저장하고 사용할 때의 공간
+		
+	    // 1. 변수 선언 : 메모리 공간 생성
+		// - 데이터타입 변수명;
+		int price; // 가격을 저장할 수 있는 변수(그릇)
+		string name;
+		
+		int price; // 정수를 담는 그릇
+		char chr; // 문자를 담는 그릇
+		boolean bool; // 논리를 담는 그릇
+		
+		// 2. 변수 초기화(할당): 그릇에 데이터 넣기
+		// -변수명 = 데이터값
+		
+		// cf) 처음 데이터를 넣는 과정 : 초기화
+		//        데이터를 바꾸는 과정 : (재)할당
+		
+		num = 10;
+		chr = '가';
+		bool = true;
+		
+		// cf) A = B
+		// : 우항 B에서 좌항 A로 값을 '대입'한다.
+		// : 같다(==)
+		
+		// 3. 변수 선언과 동시에 초기화
+		// - 데이터타입 변수명 = 데이터값;
+		
+		int number = 10;
+		char character = '가';
+		boolean boolValue = false;
+		
+		// = 변수 명명 규칙 ==
+		// : 문자, 숫자, 기호를 사용
+		// - 대소문자를 구분, 길이 제한 X
+		int age;
+		int Age; // 서로 다른 변수(그릇)
+		
+		// - 숫자로 시작 할 수 X
+//		int 0211Age;
+		int Age0211;
+		
+		// - 기호는 _(언더스코어) $(달러)만 사용 가능
+		int _0211;
+		int age$;
+//		int age%;
+	}
+
+}

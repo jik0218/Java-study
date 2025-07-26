@@ -1,0 +1,38 @@
+package chapter01;
+
+public class D_DateType {
+	public static void main(String[] args) {
+		/*
+		 데어터 타입 (자료형, Data Type) 
+		 : 자바는 '강'타입 언어
+		 >> 모든 변수 선언 시 반드시! 데이터타입을 명시
+		 
+		 1. 데이터 타입 종류
+		 1) 기본 타입
+		        - 변수 선언 시 해당되는 자료형의 크기 만큼 메모리가 할당
+		        - 실질적인 데이터가 저장
+		 
+		 2) 참조 타입       
+		        - 객체의 참조(메모리 주소)를 저장하는 변수 타입
+		        - 객체, 배열과 같이 메모리의 Heap 영역에 저장된 데이터를 참조
+		         
+		 */
+		
+		// 1) 기본타입 (자료형 - 8개)
+		// byte(1), short(2), long(8), float(4)
+		// *int(4), double(8),char(2), boolean(1)
+		
+		// cf) 자료형 크기의 단위
+		// 1byte 체계
+		// == 8bit (1bit 메모리 한 칸)
+		
+		// 1-1) 정수형 : byte(1) < short(2) < int(4) < long(8)
+		// byte : -128 ~ 127(2의 8제곱)
+		// short : -32,768 ~ -32,767
+		// *int : 약 -2.1억~ 약 2.1억
+		// long : 약 -2의 26제곱 ~ 약 2의 63제곱
+		byte byteValue = 128;
+		
+	}
+
+}
