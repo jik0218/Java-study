@@ -55,7 +55,16 @@ public class B {
 		
 		// 3. 코드 자동 정렬 : ctrl + shift + F
 		
-		// 4.  
+		// 4. 자동 import 정리 : ctrl + shift + o
+		// : 외부 라이버러리, 외부 파일에 대한 import문 정리
+		
+        // 5. 줄 이동 : alt + 위/아래 방향키 (alt + option)
+		
+		// 6. 줄 복사 : ctrl + alt + 위/아래 방향키
+		
+		// 7. 실행 : ctrl + f11
+		
+		// 8. 주석 생성/삭제 : ctrl + /
 	}
 
 }
