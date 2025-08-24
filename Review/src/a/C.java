@@ -23,7 +23,7 @@ public class C {
 		 //        데이터를 바꾸는 과정 : (재)할당
 		 
 		 num = 10;
-		 chr = "가";
+		 chr = '가';
 		 bool = true;
 		 
 		 // cf) A = B
