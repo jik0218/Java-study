@@ -1,6 +1,6 @@
 package a;
 
-public class E {
+public class Conversion {
 	public static void main(String[] args) {
 		/*
 		 자바 형 변환 (Type Conversion)
@@ -61,6 +61,25 @@ public class E {
 		
 		// 1. char(문자)를 숫자로 변환
 		//           : 문자의 유니코드 값으로 변환
+		char letter = 'A';
+		int ascii = letter;
+		
+		System.out.println(ascii); // 65
+		
+		char a1 = 'a';
+		char a2 = 97; 
+		char a3 = '\u0061';
+		
+		System.out.println(a1); //a
+		System.out.println(a2); //a - 유니코드
+		System.out.println(a3); //a - 유니코드 값을 16진수로 표현
+		
+		// 2) int를 char로 변환
+		int ascii66 = 66;
+		char letter66 = (char) ascii66; //명시적 형변환
+		
+		System.out.println(ascii66);
+		
 	}
 
 }

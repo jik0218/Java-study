@@ -1,6 +1,6 @@
 package a;
 
-public class D {
+public class DataType {
 	public static void main(String[] args) {
 		/*
 		 데이터 타입 (자료형, Data Type)

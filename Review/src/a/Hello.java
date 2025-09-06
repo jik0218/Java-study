@@ -1,6 +1,6 @@
 package a;
 
-public class A {
+public class Hello {
 	public static void main(String[] args) {
 		// 1. 자바 소스 파일(.java)
 		// : 고급 언어 (사람이 이해 할 수 있는 언어)를 작성할 확장자 파일

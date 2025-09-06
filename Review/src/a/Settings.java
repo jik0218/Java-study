@@ -1,6 +1,6 @@
 package a;
 
-public class B {
+public class Settings {
 	public static void main(String[] args) {
 		//안녕하세요
 		// ===주석===

@@ -1,6 +1,6 @@
 package a;
 
-public class C {
+public class Variable {
 	// main 메서드
 	// : main + 자동 완성(ctrl + space) 
 	public static void main(String[] args) {
