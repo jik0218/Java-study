@@ -87,7 +87,24 @@ public class If {
 		int x = scanner.nextInt();
 		
 		System.out.println("y: ");
-		int x = scanner.nextInt();
+		int y = scanner.nextInt();
+		
+		// 조건문 작성
+		if(x > 0 && y > 0) {
+			// x,y 모두 양수
+			functionScope = "제 1사분면";
+		}else if(x < 0 && y > 0) {
+			// if문의 조건이 거짓인 경우!
+			functionScope = "제 2사분면";
+		}else if(x < 0 && y < 0) {
+			functionScope = "제 3사분면";			
+		}else {
+			//앞선 조건이 모두 거짓인 경우!
+			functionScope = "제 4사분면";
+		}
+		System.out.println("결과: " + functionScope);
+		
+		// 스캐너 종료
 		scanner.close();
 	}
 

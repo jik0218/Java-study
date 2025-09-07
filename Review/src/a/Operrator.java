@@ -103,7 +103,10 @@ public class Operrator {
 	    
 	    // 정수를 담는 x.y 변수를 선언
 	    // > y값을 활용하여 x의 값이 짝수면 "2의 배수입니다." 출력
-	    //int y =2;
+	    //                 ,x의 값이 홀수면 "2의 배수가 아닙니다." 출력
+	    
+	    int x =10, y = 2; // 같은 자료형일 경우 쉼표로 구분하여 선언 가능
+	    // int y =2;
 	    System.out.println(x % y ==0 ? "2의 배수입니다." : "2의 배수가 아닙니다.");
 	    System.out.println();
 	    

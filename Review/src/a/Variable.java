@@ -101,7 +101,7 @@ public class Variable {
 		 // - 세미콜론은 문장 끝마침을 의미
 		 //- 문장 종료시 반드시 세미콜론 첨부;
 		 
-		 int semi;, int colon; // 사용 금지!
+//		 int semi;, int colon; // 사용 금지!
 		 
 		 // cf) 콤마(,)
 		 // : 같은 데이터타입의 변수 선언 시 콤마로 구분하여 동시 생성 가능
